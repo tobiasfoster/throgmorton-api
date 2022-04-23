@@ -5,8 +5,6 @@ const getBrochures = require("./getBrochures");
 const getResources = require("./getResources");
 const getInvestmentCommentaries = require("./getInvestmentCommentaries");
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
 
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(process.env.EMAIL_API);
